@@ -2,9 +2,9 @@ export class Stock {
     favorite = false;
 
     constructor(public name: string,
-        public code: string,
-        public price: number,
-        public previousPrice: number
+                public code: string,
+                public price: number,
+                public previousPrice: number
     ) {}
 
 
